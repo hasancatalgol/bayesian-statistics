@@ -3,16 +3,12 @@
 
 The **Concrete Compressive Strength dataset** is a widely used benchmark for regression modeling, sourced from the UCI Machine Learning Repository. It contains experimental data on how the proportions of different concrete ingredients affect the material’s strength.
 
----
-
 ## 📊 Dataset Summary
 
 - **Objective**: Predict the **compressive strength** (in MPa) of concrete based on its ingredient mix.
 - **Records**: 1,030 observations
 - **Features**: 8 numerical input variables + 1 target
 - **Target**: `Concrete compressive strength (MPa)`
-
----
 
 ## 🧪 Features (Ingredients in kg/m³):
 
@@ -35,7 +31,6 @@ The **Concrete Compressive Strength dataset** is a widely used benchmark for reg
 
 This guide walks you through installing the necessary tools to run Bayesian models using [PyMC](https://www.pymc.io/) with compiler and performance support on a Windows system.
 
----
 
 ## ✅ 1. Install TDM-GCC (C++ Compiler)
 
@@ -60,8 +55,6 @@ You should see something like:
 g++ (tdm64-1) 10.3.0
 ```
 
----
-
 ## ✅ 2. Set Up Your Python Environment
 
 We recommend using [`uv`](https://github.com/astral-sh/uv) or `venv` to create a clean workspace.
@@ -72,10 +65,6 @@ We recommend using [`uv`](https://github.com/astral-sh/uv) or `venv` to create a
 uv venv .venv
 uv pip install --upgrade pip setuptools
 ```
-
-Or with plain Python:
-
----
 
 ## ✅ 3. Install Required Python Packages
 
