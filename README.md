@@ -1,4 +1,26 @@
 
+# Bayesian Analysis of Concrete Compressive Strength
+
+This project applies Bayesian linear modeling techniques to the **Concrete Compressive Strength Dataset** from the UCI Machine Learning Repository. The primary objective is to analyze the relationship between material composition and compressive strength using probabilistic inference.
+
+---
+
+## 📘 Table of Contents
+
+- [Bayesian Analysis of Concrete Compressive Strength](#bayesian-analysis-of-concrete-compressive-strength)
+  - [📘 Table of Contents](#-table-of-contents)
+- [🏗️ Concrete Compressive Strength Dataset – Introduction](#️-concrete-compressive-strength-dataset--introduction)
+  - [📊 Dataset Summary](#-dataset-summary)
+  - [🧪 Features (Ingredients in kg/m³):](#-features-ingredients-in-kgm)
+- [📦 Environment Setup Guide (Windows 10/11)](#-environment-setup-guide-windows-1011)
+  - [✅ 1. Install TDM-GCC (C++ Compiler)](#-1-install-tdm-gcc-c-compiler)
+    - [➤ Steps:](#-steps)
+    - [➤ Verify:](#-verify)
+  - [✅ 2. Set Up Your Python Environment](#-2-set-up-your-python-environment)
+    - [➤ Create a virtual environment (with `uv`):](#-create-a-virtual-environment-with-uv)
+  - [✅ 3. Install Required Python Packages](#-3-install-required-python-packages)
+
+---
 # 🏗️ Concrete Compressive Strength Dataset – Introduction
 
 The **Concrete Compressive Strength dataset** is a widely used benchmark for regression modeling, sourced from the UCI Machine Learning Repository. It contains experimental data on how the proportions of different concrete ingredients affect the material’s strength. Below is a typical setup used in compressive strength testing of concrete cylinders:
@@ -69,7 +91,6 @@ We recommend using [`uv`](https://github.com/astral-sh/uv) or `venv` to create a
 
 ```bash
 uv venv .venv
-uv pip install --upgrade pip setuptools
 ```
 
 ## ✅ 3. Install Required Python Packages
