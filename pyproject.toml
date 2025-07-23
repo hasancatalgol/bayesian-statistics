@@ -10,4 +10,5 @@ dependencies = [
     "numba>=0.61.2",
     "pymc>=5.25.0",
     "pytensor>=2.31.7",
+    "scikit-learn>=1.7.1",
 ]
