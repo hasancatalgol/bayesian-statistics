@@ -5,14 +5,13 @@ This guide walks you through installing the necessary tools to run Bayesian mode
 
 ---
 
-## ✅ 1. Install [TDM-GCC (C++ Compiler)](https://jmeubank.github.io/tdm-gcc/download/)
+## ✅ 1. Install TDM-GCC (C++ Compiler)
 
 PyMC uses [PyTensor](https://pytensor.readthedocs.io/) as a backend that benefits from C compilation. You'll need a working `g++` compiler.
 
 ### ➤ Steps:
-1. Go to: [https://jmeubank.github.io/tdm-gcc/download/](https://jmeubank.github.io/tdm-gcc/download/)
-2. Download the **"TDM-GCC x64 for 64-bit"** installer. [Download from here](https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe)
-3. Run the installer:
+1. Download the **"TDM-GCC x64 for 64-bit"** installer. [Download from here](https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe)
+2. Run the installer:
    - Choose **TDM-GCC 10.3.0-2.exe** (default is fine)   
    - Keep all components selected
    - Install to: `C:\TDM-GCC-64\` (or leave default)
