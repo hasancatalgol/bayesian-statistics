@@ -1,4 +1,36 @@
 
+# 🏗️ Concrete Compressive Strength Dataset – Introduction
+
+The **Concrete Compressive Strength dataset** is a widely used benchmark for regression modeling, sourced from the UCI Machine Learning Repository. It contains experimental data on how the proportions of different concrete ingredients affect the material’s strength.
+
+---
+
+## 📊 Dataset Summary
+
+- **Objective**: Predict the **compressive strength** (in MPa) of concrete based on its ingredient mix.
+- **Records**: 1,030 observations
+- **Features**: 8 numerical input variables + 1 target
+- **Target**: `Concrete compressive strength (MPa)`
+
+---
+
+## 🧪 Features (Ingredients in kg/m³):
+
+| Feature             | Description |
+|---------------------|-------------|
+| Cement              | Cement content |
+| Blast Furnace Slag  | Supplementary cementitious material |
+| Fly Ash             | Alternative cementitious material |
+| Water               | Water content |
+| Superplasticizer    | Chemical additive to improve flow |
+| Coarse Aggregate    | Gravel or crushed stone |
+| Fine Aggregate      | Sand |
+| Age                 | Curing time in days |
+
+- **Target**: `Strength` – compressive strength of concrete after curing
+
+---
+
 # 📦 Environment Setup Guide (Windows 10/11)
 
 This guide walks you through installing the necessary tools to run Bayesian models using [PyMC](https://www.pymc.io/) with compiler and performance support on a Windows system.
@@ -53,42 +85,3 @@ Install PyMC and performance libraries:
 uv add pymc arviz numba pytensor
 ```
 ---
-
-
-# 🏗️ Concrete Compressive Strength Dataset – Introduction
-
-The **Concrete Compressive Strength dataset** is a widely used benchmark for regression modeling, sourced from the UCI Machine Learning Repository. It contains experimental data on how the proportions of different concrete ingredients affect the material’s strength.
-
----
-
-## 📊 Dataset Summary
-
-- **Objective**: Predict the **compressive strength** (in MPa) of concrete based on its ingredient mix.
-- **Records**: 1,030 observations
-- **Features**: 8 numerical input variables + 1 target
-- **Target**: `Concrete compressive strength (MPa)`
-
----
-
-## 🧪 Features (Ingredients in kg/m³):
-
-| Feature             | Description |
-|---------------------|-------------|
-| Cement              | Cement content |
-| Blast Furnace Slag  | Supplementary cementitious material |
-| Fly Ash             | Alternative cementitious material |
-| Water               | Water content |
-| Superplasticizer    | Chemical additive to improve flow |
-| Coarse Aggregate    | Gravel or crushed stone |
-| Fine Aggregate      | Sand |
-| Age                 | Curing time in days |
-
-- **Target**: `Strength` – compressive strength of concrete after curing
-
----
-
-## 💡 Use Cases
-
-- Regression model benchmarking
-- Feature importance analysis in materials science
-- Demonstrations of Bayesian modeling or predictive uncertainty
