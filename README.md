@@ -3,7 +3,7 @@
 
 The **Concrete Compressive Strength dataset** is a widely used benchmark for regression modeling, sourced from the UCI Machine Learning Repository. It contains experimental data on how the proportions of different concrete ingredients affect the material’s strength. Below is a typical setup used in compressive strength testing of concrete cylinders:
 
-![Concrete Compression Test](../docs/Compression-test-configuration-concrete-cylinder.png)
+![Concrete Compression Test](docs/Compression-test-configuration-concrete-cylinder.png)
 
 **Figure:** Compression test configuration for a concrete cylinder  
 **Source:** [ResearchGate - Compression Test Configuration](https://www.researchgate.net/figure/Compression-test-configuration-concrete-cylinder_fig5_34173598)
